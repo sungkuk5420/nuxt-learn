@@ -1,5 +1,11 @@
 # nuxt-learn
 
+
+## axios
+```
+npm install axios@0.27.2
+```
+
 ## Build Setup
 
 ```bash
