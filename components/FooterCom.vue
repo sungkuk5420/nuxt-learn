@@ -21,29 +21,29 @@
                     <li>INFORMATION
                         <ul class="footer_list_2">
                             <li>
-                                <router-link to="/information/aboutUs">
+                                <nuxt-link to="/information/aboutUs">
                                     About Us
-                                </router-link>
+                                </nuxt-link>
                             </li>
                             <li>
-                                <router-link to="/information/deliveryInformation">
+                                <nuxt-link to="/information/deliveryInformation">
                                     Delivery Information
-                                </router-link>
+                                </nuxt-link>
                             </li>
                             <li>
-                                <router-link to="/information/privacyPolicy">
+                                <nuxt-link to="/information/privacyPolicy">
                                     Privacy Policy
-                                </router-link>
+                                </nuxt-link>
                             </li>
                             <li>
-                                <router-link to="/information/privacyPolicy">
+                                <nuxt-link to="/information/privacyPolicy">
                                     Teams & Canditions
-                                </router-link>
+                                </nuxt-link>
                             </li>
                             <li>
-                                <router-link to="/information/faq">
+                                <nuxt-link to="/information/faq">
                                     FAQ
-                                </router-link>
+                                </nuxt-link>
                             </li>
                         </ul>
                     </li>
@@ -55,18 +55,18 @@
                                 </a>
                             </li>
                             <li>
-                                <router-link to="/information/siteMap">
+                                <nuxt-link to="/information/siteMap">
                                     Site Map
-                                </router-link>
+                                </nuxt-link>
                             </li>
                         </ul>
                     </li>
                     <li>EXTRAS
                         <ul class="footer_list_2">
                             <li>
-                                <router-link to="/shop/brands">
+                                <nuxt-link to="/shop/brands">
                                     Brands
-                                </router-link>
+                                </nuxt-link>
                             </li>
                             <li>
                                 <a href="#">

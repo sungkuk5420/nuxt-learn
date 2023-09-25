@@ -24,7 +24,7 @@
           </select>
         </div>
       </div>
-      <ItemList />
+      <ItemList :products="products"/>
       <div class="btn_area">
         <button type="button" class="lead_more">
           Lead More
@@ -32,49 +32,17 @@
         </button>
       </div>
 
-      <div class="grid_area type_bor">
-        <h2 class="title">new arival</h2>
-        <p class="desc">
-          Shop new arrivals at LOFT and find feminine, versatile and affordable
-          women's clothing<br />
-          including new tops, dresses, pants, accessories and more. Shop today!
-        </p>
-        <div class="tab_area">
-          <ul class="tab_list">
-            <li class="active" @click="tabList">skin care</li>
-            <li @click="tabList">caleansing</li>
-            <li @click="tabList">makeup</li>
-            <li @click="tabList">samples</li>
-            <li @click="tabList">body &amp; hair</li>
-          </ul>
-          <select class="m_tab_list">
-            <option value="0">skin care</option>
-            <option value="1">caleansing</option>
-            <option value="2">makeup</option>
-            <option value="3">samples</option>
-            <option value="4">body &amp; hair</option>
-          </select>
-        </div>
-      </div>
-      <ItemList />
-
-      <div class="btn_area">
-        <button type="button" class="lead_more">
-          Lead More
-          <img src="~assets/img_leadmore_arrow.png" alt="" />
-        </button>
-      </div>
       <div class="main_bottom_ad">
         <ul class="grid_container">
           <li class="grid_item item_5">
-            <router-link to="/shop/shop">
+            <nuxt-link to="/shop/shop">
               <img src="~assets/img_men_sport.jpg" alt="" />
-            </router-link>
+            </nuxt-link>
           </li>
           <li class="grid_item item_5">
-            <router-link to="/shop/shop">
+            <nuxt-link to="/shop/shop">
               <img src="~assets/img_find_your.jpg" alt="" />
-            </router-link>
+            </nuxt-link>
           </li>
         </ul>
       </div>

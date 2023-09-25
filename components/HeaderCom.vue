@@ -31,13 +31,13 @@
             <a href="#">LOGOUT</a>
           </li>
           <li v-show="!loginUser">
-            <router-link to="/account/login">LOGIN</router-link>
+            <nuxt-link to="/account/login">LOGIN</nuxt-link>
           </li>
           <li v-show="!loginUser">
-            <router-link to="/account/register">JOIN</router-link>
+            <nuxt-link to="/account/register">JOIN</nuxt-link>
           </li>
           <li>
-            <router-link to="/">MY PAGE</router-link>
+            <nuxt-link to="/">MY PAGE</nuxt-link>
           </li>
         </ul>
       </div>
@@ -63,25 +63,25 @@
         >
           <ul class="gnb_list">
             <li>
-              <router-link to>HOT DEAL</router-link>
+              <nuxt-link to>HOT DEAL</nuxt-link>
             </li>
             <li>
-              <router-link to>
+              <nuxt-link to>
                 NEW ARRIVAL
                 <span class="orange_ico">N</span>
-              </router-link>
+              </nuxt-link>
             </li>
             <li>
-              <router-link to>TIME SALE</router-link>
+              <nuxt-link to>TIME SALE</nuxt-link>
             </li>
             <li>
-              <router-link to>EVENT PAGE</router-link>
+              <nuxt-link to>EVENT PAGE</nuxt-link>
             </li>
             <li>
-              <router-link to="/information/notice">NOTICE</router-link>
+              <nuxt-link to="/information/notice">NOTICE</nuxt-link>
             </li>
             <li>
-              <router-link to="/shop/brands">BRAND</router-link>
+              <nuxt-link to="/shop/brands">BRAND</nuxt-link>
             </li>
           </ul>
 
@@ -94,7 +94,7 @@
                 <a href="#" @click="gnbSlide">{{ item.title }}</a>
                 <ul class="gnb_depth_2" :class="{ all_show: item.allShow }">
                   <li v-for="(item2, i) in item.depth2" :key="i">
-                    <router-link to="/shop/shop">{{ item2 }}</router-link>
+                    <nuxt-link to="/shop/shop">{{ item2 }}</nuxt-link>
                   </li>
                 </ul>
               </li>
