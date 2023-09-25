@@ -13,6 +13,9 @@ module.exports = {
   // add your custom rules here
   rules: {
     "no-console": "off",
-    "vue/order-in-components": "off"
+    "vue/order-in-components": "off",
+    "vue/attributes-order": "off",
+    "prefer-const": "off",
+    "camelcase": "off",
   },
 }
