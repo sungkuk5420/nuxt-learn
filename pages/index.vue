@@ -24,6 +24,7 @@
           </select>
         </div>
       </div>
+      <SearchInput :searchKeyword="searchKeyword" @input="updateSearchKeyword" @search="searchProduct"></SearchInput>
       <ItemList :products="products"/>
       <div class="btn_area">
         <button type="button" class="lead_more">
@@ -52,7 +53,8 @@
 
 <script>
 import ItemList from "@/components/ItemList";
-import {fetchProducts} from '@/api/index'
+import {fetchProducts,fetchProductsByKeyword} from '@/api/index'
+import SearchInput from "@/components/SearchInput.vue";
 
 export default {
   async asyncData(){
@@ -63,6 +65,7 @@ export default {
   },
   components: {
     ItemList,
+    SearchInput
   },
   data() {
     return {
@@ -71,6 +74,13 @@ export default {
   },
 
   methods: {
+    async searchProduct(){
+      const response = await fetchProductsByKeyword(this.searchKeyword)
+      this.products = response.data
+    },
+    updateSearchKeyword(value){
+      this.searchKeyword = value;
+    },
     tabList(e) {
       let target = e.target;
 

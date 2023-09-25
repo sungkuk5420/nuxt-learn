@@ -3,18 +3,18 @@
     <input
       type="text"
       class="search-input"
-      :value="value"
+      :value="searchKeyword"
       @input="$emit('input', $event.target.value)"
       @keyup.enter.exact="$emit('search')"
     />
-    <button class="btn" type="button" @click="$emit('search')">search</button>
+    <img src="~assets/img_magnify.png" alt="찾기" @click="$emit('search')"  style="cursor: pointer;"/>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    value: {
+    searchKeyword: {
       type: String,
       default: '',
     },

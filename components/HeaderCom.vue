@@ -28,7 +28,7 @@
       <div class="login_area">
         <ul class="login_list">
           <li v-show="loginUser" @click="logout">
-            <a href="#">LOGOUT</a>
+            <a href="/">LOGOUT</a>
           </li>
           <li v-show="!loginUser">
             <nuxt-link to="/account/login">LOGIN</nuxt-link>
@@ -45,7 +45,7 @@
     <div class="header_bottom">
       <div class="logo_area">
         <h1 class="title">
-          <a href="#" @click="movePage('/')">
+          <a href="/" @click="movePage('/')">
             <img src="~assets/img_roseshop_logo.png" alt />
           </a>
         </h1>
@@ -91,7 +91,7 @@
             </button>
             <ul class="gnb_depth_1">
               <li v-for="(item, index) in gnbMenuList.depth1" :key="index">
-                <a href="#" @click="gnbSlide">{{ item.title }}</a>
+                <a href="/" @click="gnbSlide">{{ item.title }}</a>
                 <ul class="gnb_depth_2" :class="{ all_show: item.allShow }">
                   <li v-for="(item2, i) in item.depth2" :key="i">
                     <nuxt-link to="/shop/shop">{{ item2 }}</nuxt-link>
@@ -133,22 +133,22 @@
               <div class="sns_wrap">
                 <ul class="gnb_sns">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="~assets/ico_facebook.png" alt="facebook" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="~assets/ico_instargram.png" alt="Instagram" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="~assets/ico_twitter.png" alt="Twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="~assets/ico_youtube.png" alt="Youtube" />
                     </a>
                   </li>
@@ -159,13 +159,13 @@
               </div>
               <ul class="nation_list">
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <img src="~assets/img_america.png" alt="america" />
                     <span class="text">ENG</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <span class="text">USD</span>
                   </a>
                 </li>
@@ -176,23 +176,19 @@
         </div>
       </div> -->
       <ul class="ico_area">
-        <li>
-          <a href="#">
-            <img src="~assets/img_magnify.png" alt="찾기" />
-          </a>
-        </li>
+          
         <li class="off">
-          <a href="#" @click="movePage('/account/login')">
+          <a href="/" @click="movePage('/account/login')">
             <img src="~assets/ico_user.png" alt="사용자" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="/">
             <img src="~assets/ico_heart.png" alt="좋아요" />
           </a>
         </li>
         <li>
-          <a href="#" @click="shoppingList">
+          <a href="/" @click="shoppingList">
             <img src="~assets/ico_shopping_basket.png" alt="장바구니" />
 
             <span class="orange_ico">0</span>
@@ -208,6 +204,7 @@
 export default {
   data() {
     return {
+      searchKeyword:"",
       isMobile: false,
       gnbMenuList: {
         depth1: [

@@ -50,7 +50,7 @@
                     <li>CUSTOMER SERVICE
                         <ul class="footer_list_2">
                             <li>
-                                <a href="#" >
+                                <a href="/" >
                                     My Account
                                 </a>
                             </li>
@@ -69,7 +69,7 @@
                                 </nuxt-link>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     Specials
                                 </a>
                             </li>
@@ -78,25 +78,25 @@
                     <li>FOLLOW US
                         <ul class="footer_list_2">
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/ico_facebook.png" alt="facebook">
                                     Facebook
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/ico_instargram.png" alt="Instagram">
                                     Instagram
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/ico_twitter.png" alt="Twitter">
                                     Twitter
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/ico_youtube.png" alt="Youtube">
                                     Youtube
                                 </a>
@@ -106,12 +106,12 @@
                     <li>PAYMENT METHOD
                         <ul class="footer_list_2">
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/img_paypal.png" alt="paypal">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <img src="~assets/img_visa.png" alt="visa">
                                 </a>
                             </li>
