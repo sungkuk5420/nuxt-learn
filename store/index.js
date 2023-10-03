@@ -21,6 +21,9 @@ export const actions = {
     const {data} = await fetchCartItems();
     console.log(data)
     commit("setCartItems",data)
+  },
+  async nuxtServerInit({commit,dispatch},{req,res}){
+    await dispatch(FETCH_CART_ITEMS);
   }
 }
  

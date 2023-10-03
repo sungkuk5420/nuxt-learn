@@ -19,11 +19,7 @@
 </template>
 
 <script>
-import { FETCH_CART_ITEMS } from '@/store/index.js';
 export default {
-  async asyncData({ store }) {
-    await store.dispatch(FETCH_CART_ITEMS)
-  },
 
   computed: {
     carts() {
