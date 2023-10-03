@@ -1,8 +1,12 @@
 <template>
-  <div>
-          <img class="product-image" :src="product.imageUrl" alt="" />
-          <p>{{ product.name }}</p>
-          <span>{{ product.price }}</span>
+  <div style="padding: 50px;">
+      <img class="product-image" :src="product.img" alt="" />
+      <p>{{ product.title }}</p>
+      <span>{{ product.discountPrice }}</span>
+      <div class="cart-wrapper">
+        <button class="btn" @click="addToCart">add to cart</button>
+      </div>
+
   </div>
 </template>
 
@@ -17,6 +21,12 @@ export default {
   },
   created(){
     console.log(this.$route)
+  },
+  methods:{
+    addToCart(){
+      this.$store.commit('addCartItem',this.product)
+      this.$router.push('/cart')
+    },
   }
 }
 </script>

@@ -25,14 +25,18 @@
         </div>
       </div>
       <SearchInput :searchKeyword="searchKeyword" @input="updateSearchKeyword" @search="searchProduct"></SearchInput>
+
       <ItemList :products="products"/>
+
+<div class="cart-wrapper">
+  <button class="btn" @click="addToCart">add to cart</button>
+</div>
       <div class="btn_area">
         <button type="button" class="lead_more">
           Lead More
           <img src="~assets/img_leadmore_arrow.png" alt="" />
         </button>
       </div>
-
       <div class="main_bottom_ad">
         <ul class="grid_container">
           <li class="grid_item item_5">
@@ -74,6 +78,9 @@ export default {
   },
 
   methods: {
+    addToCart(){
+      this.$router.push('/cart')
+    },
     async searchProduct(){
       const response = await fetchProductsByKeyword(this.searchKeyword)
       this.products = response.data
