@@ -1,117 +1,135 @@
 {
   "products": [
     {
-      "id":1,
+      "id": 1,
       "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0019/A00000019027008ko.jpg?l=ko",
       "best": "best1",
       "discountPercent": "50",
       "title": "1",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "80%" },
+      "star": {
+        "width": "80%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":2,
+      "id": 2,
       "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0018/A00000018504609ko.jpg?l=ko",
       "best": "best2",
       "discountPercent": "50",
       "title": "2",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "100%" },
+      "star": {
+        "width": "100%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":3,
+      "id": 3,
       "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0018/A00000018053240ko.jpg?l=ko",
       "best": "best3",
       "discountPercent": "50",
       "title": "3",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "50%" },
+      "star": {
+        "width": "50%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":4,
+      "id": 4,
       "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0019/A00000019038712ko.jpg?l=ko",
       "best": "best4",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":5,
+      "id": 5,
       "img": "_nuxt/assets/img_list_sample_1.png",
       "best": "best5",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":6,
+      "id": 6,
       "img": "_nuxt/assets/img_list_sample_1.png",
       "best": "best1",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":7,
+      "id": 7,
       "img": "_nuxt/assets/img_list_sample_1.png",
       "best": "best1",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":8,
+      "id": 8,
       "img": "_nuxt/assets/img_list_sample_1.png",
       "best": "best1",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
       "discountPrice": "53.70"
     },
     {
-      "id":9,
+      "id": 9,
       "img": "_nuxt/assets/img_list_sample_1.png",
       "best": "best1",
       "discountPercent": "50",
       "title": "Jorge Miles",
       "desc": " Derma Ectocica 23 Emulsion - 100ml",
-      "star": { "width": "20%" },
+      "star": {
+        "width": "20%"
+      },
       "resultStar": "4.5",
       "totalUser": "2489",
       "beforePrice": "76.00",
@@ -120,16 +138,34 @@
   ],
   "carts": [
     {
-      "id": 1,
-      "name": "Intelligent Metal Mouse",
-      "price": "84.00",
-      "imageUrl": "https://media.istockphoto.com/id/1127471287/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E7%99%BD%E3%81%84%E3%83%81%E3%83%BC%E3%82%BA.jpg?s=2048x2048&w=is&k=20&c=Tp_FW-LGRIFKPZ1rXnKkeJ-BbZLPZ2q_g2wl5EcFQCw="
+      "id": 3,
+      "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0018/A00000018053240ko.jpg?l=ko",
+      "best": "best3",
+      "discountPercent": "50",
+      "title": "3",
+      "desc": " Derma Ectocica 23 Emulsion - 100ml",
+      "star": {
+        "width": "50%"
+      },
+      "resultStar": "4.5",
+      "totalUser": "2489",
+      "beforePrice": "76.00",
+      "discountPrice": "53.70"
     },
     {
-      "id": 7,
-      "name": "Awesome Concrete Shirt",
-      "price": "165.00",
-      "imageUrl": "https://media.istockphoto.com/id/1127471287/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E7%99%BD%E3%81%84%E3%83%81%E3%83%BC%E3%82%BA.jpg?s=2048x2048&w=is&k=20&c=Tp_FW-LGRIFKPZ1rXnKkeJ-BbZLPZ2q_g2wl5EcFQCw="
+      "id": 2,
+      "img": "https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0018/A00000018504609ko.jpg?l=ko",
+      "best": "best2",
+      "discountPercent": "50",
+      "title": "2",
+      "desc": " Derma Ectocica 23 Emulsion - 100ml",
+      "star": {
+        "width": "100%"
+      },
+      "resultStar": "4.5",
+      "totalUser": "2489",
+      "beforePrice": "76.00",
+      "discountPrice": "53.70"
     }
   ]
 }
